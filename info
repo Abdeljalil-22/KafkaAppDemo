@@ -1,0 +1,19 @@
+tep 1: Manually Create the Topic
+Run this command inside your Kafka container:
+
+bash
+Copy
+Edit
+docker exec kafka \
+  kafka-topics --create \
+  --topic demo-topic \
+  --bootstrap-server localhost:9092 \
+  --partitions 1 \
+  --replication-factor 1
+Then verify:
+
+bash
+Copy
+Edit
+docker exec kafka \
+  kafka-topics --list --bootstrap-server localhost:9092
