@@ -90,3 +90,4 @@
 /workspaces/codespaces-blank/KafkaAppDemo/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll
 /workspaces/codespaces-blank/KafkaAppDemo/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll
 /workspaces/codespaces-blank/KafkaAppDemo/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
+/workspaces/codespaces-blank/KafkaAppDemo/obj/Debug/net8.0/KafkaAppDemo.sourcelink.json

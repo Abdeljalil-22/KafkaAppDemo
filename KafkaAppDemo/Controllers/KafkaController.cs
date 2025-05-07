@@ -9,9 +9,9 @@ namespace KafkaAppDemo.Controllers;
 public class KafkaController : ControllerBase
 {
    private readonly KafkaProducerService _producerService;
-        private readonly ILogger _logger;
+        private readonly ILogger<KafkaController> _logger;
 
-        public KafkaController(KafkaProducerService producerService, ILogger logger)
+        public KafkaController(KafkaProducerService producerService, ILogger<KafkaController> logger)
         {
             _producerService = producerService;
             _logger = logger;
